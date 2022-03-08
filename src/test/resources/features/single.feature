@@ -1,7 +1,12 @@
-Feature: Google's Search Functionality
+Feature: Booking a hotel using Demo site
 
-    Scenario: Can find search results
-        When I click on checkboxes
-        And I add new Element "Complete LambdaTest Tutorial"
-        Then I Compare the new added element text with "Complete LambdaTest Tutorial"
+    Scenario: Book a hotel
+        When I open the demo site
+        Then Select the desired location 
+        And Select the number of guests
+        Then Search for the results
+        Then Select one of the hotels
+        And Proceed with booking
+        Then Download the invoice
+        
 

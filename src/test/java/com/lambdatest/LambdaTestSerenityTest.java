@@ -1,15 +1,15 @@
 package com.lambdatest;
 
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
+import org.junit.After;
+import org.junit.Before;
 
 public class LambdaTestSerenityTest {
 
-	@BeforeClass
+	@Before
 	public static void setUp() throws Exception {
 	}
 
-	@AfterClass
+	@After
 	public static void tearDown() throws Exception {
 	}
 }
